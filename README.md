@@ -1,2 +1,1 @@
-# Python-AI
-Learning Python And Artificial Intelligence
+# 机器学习
