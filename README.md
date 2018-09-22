@@ -1,6 +1,9 @@
 # 吴恩达机器学习笔记
 ### 引言
 学习AndrewNg的机器学习有一周的时间了，收获了不少东西。因此想通过这个学习笔记来将所学的知识从头梳理一遍并做一个总结。
+
+* 编程作业见[Programming HomeWorks](https://github.com/WilliamJQ/Machine-Learning/tree/master/Programming%20HomeWorks)文件夹
+
 > ## 1. 绪论
 > ### 1.1 什么是机器学习
 > 这里主要有两种定义：
