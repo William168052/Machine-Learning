@@ -430,6 +430,6 @@ $$
 >>J(\theta) = - \frac{1}{m}[\sum_{i=1}^{m}\sum_{k=1}^{K}y^{(i)}_{k}\log({h_{\theta}(x^{(i)})})_k+(1-y^{(i)}_k)\log{(1-h_{\theta}(x^{(i)}))_k}]\\
  + \frac{\lambda}{2m}\sum_{l=1}^{L-1}\sum_{i=1}^{s_l}\sum_{j=1}^{s_{l+1}}(\Theta_{ji}^{(l)})^{2}
 \end{split}
-$$
+>>$$
 >>
 >>
