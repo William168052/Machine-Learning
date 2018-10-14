@@ -427,8 +427,7 @@ $$
 >>
 >>我们都知道，其实神经网络每一层中每一个激活单元对下一层中每个单元的映射实质上是一个Logistic回归问题。因此我们只需在Logistic回归代价函数基础上做一个求和即可得到神经网络的代价函数。我们规定$h_{\Theta}(x) \in R^{K}$并且 $(h_{\Theta}(x))_i$ 表示第 $i$ 个输出结果，则代价函数 $J(\Theta)$ 定义如下：
 >>$$\begin{split}
->>J(\theta) = - \frac{1}{m}[\sum_{i=1}^{m}\sum_{k=1}^{K}y^{(i)}_{k}\log({h_{\theta}(x^{(i)})})_k+(1-y^{(i)}_k)\log{(1-h_{\theta}(x^{(i)}))_k}]\\
-+\frac{\lambda}{2m}\sum_{l=1}^{L-1}\sum_{i=1}^{s_l}\sum_{j=1}^{s_{l+1}}(\Theta_{ji}^{(l)})^{2}
+>>J(\theta) = - \frac{1}{m}[\sum_{i=1}^{m}\sum_{k=1}^{K}y^{(i)}_{k}\log({h_{\theta}(x^{(i)})})_k+(1-y^{(i)}_k)\log{(1-h_{\theta}(x^{(i)}))_k}]
 \end{split}
 >>$$
 >>
